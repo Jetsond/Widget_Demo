@@ -103,15 +103,11 @@
 		};
 		E543F4F12E55A2E300827383 /* widget_demoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = widget_demoTests;
 			sourceTree = "<group>";
 		};
 		E543F4FB2E55A2E300827383 /* widget_demoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = widget_demoUITests;
 			sourceTree = "<group>";
 		};
@@ -175,7 +171,6 @@
 				B5637DD657430BC63341E17D /* Pods-widget_demoTests.debug.xcconfig */,
 				A8F91B1A3756C59782C8B9A3 /* Pods-widget_demoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -397,9 +392,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-widget_demo-widget_demoUITests/Pods-widget_demo-widget_demoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-widget_demo-widget_demoUITests/Pods-widget_demo-widget_demoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -480,9 +479,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-widget_demo/Pods-widget_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-widget_demo/Pods-widget_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
